@@ -1,0 +1,55 @@
+a, a:hover {
+color:#88ef08;
+}
+
+
+/* Back to top button */
+.back-to-top {
+background: #9f0d72;
+  color: #fff;
+}
+
+
+.back-to-top:focus {
+background: #9f0d72;
+  color: #fff;
+}
+
+.back-to-top:hover {
+  background: #9f0d72;
+  color: #fff;
+}
+
+.navbar-default {
+background: #fff;
+}
+
+.form-control:focus {
+  border-color: #003399;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 1px #003399;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .025), 0 0 1px #003399;
+}
+
+.service .carousel-indicators .active {
+background: #99FF00;
+}
+
+.btn-theme {
+background: #003399;
+color:#fff;
+}
+
+.btn-theme {
+  transition: 0.3s
+}
+
+.btn-theme:hover,
+.btn-theme:focus {
+  background-color: #9f0d72!important;
+  border-color: #9f0d72!important;
+  color:#fff;
+}
+
+.contact-widget i {
+color:#9f0d72;    
+}
