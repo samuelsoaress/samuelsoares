@@ -24,6 +24,28 @@ body{
 	line-height: 1.6em;
 }
 
+header {
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	position: relative;
+  }
+  
+  .img-profile {
+	width: 200px;
+	height: 200px;
+	border: 7px solid #322f3a;
+}
+
+.rounded-circle {
+	border-radius: 50%!important;
+}
+
+.logo-index h1{
+	font-size: 14px;
+}
+
 h1 {
 	font-size: 36px;
 }
@@ -182,9 +204,9 @@ nav.navbar.fixed-to-top{
 
 /* brand / logo */
 .navbar-default .navbar-brand{
-	color: #fff;
+	color: rgb(7, 7, 7);
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 300;
 	font-size: 2em;
 }
 
