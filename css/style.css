@@ -31,8 +31,13 @@ header {
 	text-align: center;
 	position: relative;
   }
-  
-  .img-profile {
+
+.bg-dark {
+    background-color: #343a40!important;
+}
+
+
+.img-profile {
 	width: 200px;
 	height: 200px;
 	border: 7px solid #322f3a;
@@ -44,6 +49,15 @@ header {
 
 .logo-index h1{
 	font-size: 14px;
+}
+
+h1#nome {
+	font-weight: 700;
+	color: #fff;
+}
+
+.text-muted {
+    color: #6c757d!important;
 }
 
 h1 {
@@ -720,10 +734,10 @@ ul.social-network li a i{
 Footer
 ================================= */
 footer {
-	background: #1A52DC; /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover,  #1A52DC 0%, #003399 100%); /* FF3.6-15 */
-	background: -webkit-radial-gradient(center, ellipse cover,  #1A52DC 0%,#003399 100%); /* Chrome10-25,Safari5.1-6 */
-	background: radial-gradient(ellipse at center,  #1A52DC 0%,#003399 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: #343a40!important; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #343a40 0%, #343a40 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  #343a40 0%,#343a40 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  #343a40 0%,#343a40 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#003399',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	color: #fff;
 	padding: 50px 0 30px;
