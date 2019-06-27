@@ -12,6 +12,7 @@ Imports
 @import url('simpletextrotator.css');
 @import url('overwrite.css');
 @import url('animate.css');
+@import url('all.min.css');
 
 /* ================================
 Header
@@ -74,6 +75,17 @@ h1#nome {
 	margin-right: 1.5rem!important;
 }
 
+.fab{
+	font-family: "Font Awesome 5 Brands";
+}
+
+header a,footer a{
+	color: #FFF;
+}
+
+.fa-linkedin:before {
+    content: "\f08c";
+}
 /* ================================
 General
 ================================= */
