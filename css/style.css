@@ -52,6 +52,13 @@ div#bar-portfolio{
 	height: 360px;
 }
 
+@media(max-width: 768px){
+	.bg-dark{
+		background-color: #343a40!important;
+		height: 10px;
+	}
+}
+
 @media(min-width: 768px){
  .text-md-left {
     text-align: left!important;
@@ -830,9 +837,18 @@ more media queries
 
 	header{
 		padding-bottom: 50px;
-		min-height: 1000px;
+		min-height: 600px;
 		height: 100%;
 	}
+
+@media (max-width:425px){
+
+	header{
+		padding-bottom: 50px;
+		min-height: 760px;
+		height: 100%;
+	}
+}
 
 	.navbar-nav {
 		float: left;
