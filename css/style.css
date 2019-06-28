@@ -19,15 +19,15 @@ Header
 ================================= */
 header {
 	color: #fff;
-	padding-top: 100px;
+	padding-top: 80px;
 	padding-bottom: 15px;
 	text-align: center;
 	position: relative;
 }
 
-@media(min-width: 479px){
+@media(max-width: 479px){
 	.col-md-6{
-		padding-top: 30px;
+		padding-top: 45px;
 	}
 }
 

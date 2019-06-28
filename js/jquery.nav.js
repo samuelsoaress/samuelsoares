@@ -184,7 +184,7 @@
 			e.preventDefault();
 		},
 		
-		scrollChange: function() {
+ 		 scrollChange: function() {
 			var windowTop = this.$win.scrollTop();
 			var position = this.getSection(windowTop);
 			var $parent;
@@ -201,8 +201,8 @@
 					//If there is a scrollChange callback
 					if(this.config.scrollChange) {
 						this.config.scrollChange($parent);
-					}
-				}
+					} 
+ 			}
 			}
 		},
 		

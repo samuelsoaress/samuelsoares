@@ -85,7 +85,7 @@
   });
 
   // Fixed navbar
-  $(window).scroll(function() {
+ /*  $(window).scroll(function() {
 
     var scrollTop = $(window).scrollTop();
 
@@ -97,7 +97,7 @@
 
       $('.navbar-default').removeClass('fixed-to-top');
     }
-  });
+  }); */
 
 
   //parallax
