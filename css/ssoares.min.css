@@ -2,6 +2,10 @@
 config Section Portifolio
 ================================= */
 
+html{
+    -webkit-tap-highlight-color: transparent;
+}
+
 div{
     display: block;
 }
@@ -106,6 +110,22 @@ img{
     background: 0 0;
 }
 
+.card-footer i{
+    margin-right: 3px;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    line-height: 1.5;
+    user-select: none;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
 
 btn-tertiary {
     font-size: 11px;
@@ -123,4 +143,8 @@ btn-tertiary {
 
 .card-footer:last-child{
     border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+}
+
+.card-link+.card-link{
+    margin-left: 1.25rem;
 }
