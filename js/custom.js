@@ -15,13 +15,13 @@
   });
 
   //navigation
-  $('.navigation').onePageNav({
+  /* $('.navigation').onePageNav({
     scrollOffset: 0
   });
 
   $(".navbar-collapse a").on('click', function() {
     $(".navbar-collapse.collapse").removeClass('in');
-  });
+  }); */
 
   //Home Background Slider
 
