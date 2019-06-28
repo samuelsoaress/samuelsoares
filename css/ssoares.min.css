@@ -2,6 +2,10 @@
 config Section Portifolio
 ================================= */
 
+div{
+    display: block;
+}
+
 .portifolio-item{
     margin-bottom: 30px;
 }
@@ -71,4 +75,52 @@ img{
 .card-body{
     padding: 1.5rem 1.5rem 0;
     flex: 1 1 auto;
+}
+
+.card-title{
+    margin-bottom: .75rem;
+}
+
+.card-title h4{
+    font-weight: 700;
+    font-family: inherit;
+    line-height: 1.2;
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.card-text:last-child{
+    margin-bottom: 0.
+}
+
+.card-text p {
+    margin-top: 0;
+}
+
+.card-footer{
+    padding: .75rem 1.5rem 1.5rem;
+    border:0;
+    background: 0 0;
+}
+
+
+btn-tertiary {
+    font-size: 11px;
+    font-weight: 700;
+    border:0;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+    color: #343a40;
+    background-color: #fff;
+    transition: all .15s ease-in-out;
+}
+
+.btn:not(:disabled):not(.disabled){
+    cursor: pointer;
+}
+
+.card-footer:last-child{
+    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
 }
