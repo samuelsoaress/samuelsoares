@@ -20,9 +20,25 @@ Header
 header {
 	color: #fff;
 	padding-top: 80px;
+	padding-inline-end: -20px;
 	padding-bottom: 15px;
 	text-align: center;
 	position: relative;
+}
+
+div#bar-portfolio{
+	position: absolute;
+	left: 50%;
+	bottom: -16px;
+	transform: translate(-50%,0);
+	-webkit-transform: translate(-50%,0);
+	padding: .375rem .75rem;
+	border-radius: .25rem;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+	color: #343a40;
+	background-color: #fff;
+	padding-top: -50px;
+
 }
 
 @media(max-width: 479px){
@@ -32,7 +48,8 @@ header {
 }
 
 .bg-dark {
-    background-color: #343a40!important;
+	background-color: #343a40!important;
+	height: 360px;
 }
 
 @media(min-width: 768px){
@@ -300,10 +317,11 @@ Home sections
 
 .bg-white {
 	background: #fff;
+	padding-top: 100px;
 }
 
 @media (max-width: 425px){
-	header.bg-white{
+	.bg-white{
 		padding-top: -130px;
 	}
 }
