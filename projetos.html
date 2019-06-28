@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!--CSS-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
-
+  
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
     <link href="color/default.css" rel="stylesheet" media="screen">
@@ -16,31 +16,103 @@
 <body>
     
     <!--Navegação-->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-              <span class="sr-only">Toggle nav</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-    
-            <!-- Logo text or image -->
-            <a class="navbar-brand" href="index.html">
-              <h1>Samuel Soares</h1>
-            </a>
-    
-          </div>
-          <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-              <li class="current"><a href="index.html">Home</a></li>
-              <li><a href="cursos.html">Courses</a></li>
-              <li><a href="projetos.html">Projects</a></li>
-              <li><a href="tecno.html">Technologies</a></li>
-            </ul>
+    <nav class="navbar navbar-default fixed-to-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle nav</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+  
+          <!-- Logo text or image -->
+          <a class="navbar-brand" href="index.html">
+            <p class="logo-index">Samuel Soares</p>
+          </a>
+  
+        </div>
+        <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="cursos.html">Courses</a></li>
+            <li><a href="projetos.html">Projects</a></li>
+            <li><a href="tecno.html">Technologies</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-white">
+
+    </header>
+
+    <div class="section-heading">
+      <h2> My Projects</h2>
+    </div>
+
+    <section id="portifolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <hr class="divider-primary">
+            <h2 class="clear-left">Web-Projects</h2>
           </div>
         </div>
-      </nav>
+        <!-- row -->
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center portifolio-item">
+            <div class="card h-100">
+              <a class="link-img" target="_blank" href="#">
+                <img class="img-fluid card-img-top" src="img/about-img.jpg" alt="portifolio Web-Projects projeto lms">
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">LMS</h4>
+                <p class="card-text">Web Site Educacional</p>
+              </div>
+              <div class="card-footer">
+                <a class="card-link btn btn-tertiary" target="_blank" href="#">
+                  <i class="fas fa-eye"></i>"Visitar</a>
+                <a class="card-link btn btn-tertiary" target="_blank" href="#">
+                  <i class="fab fa-github"></i>
+                  "Codigo-Fonte
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="rodape">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright &copy; Samuel Soares :]</p>
+           
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/mb.bgndGallery.js"></script>
+  <script src="js/mb.bgndGallery.effects.js"></script>
+  <script src="js/jquery.simple-text-rotator.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/stellar.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Custom Javascript File -->
+  <script src="js/custom.js"></script>
+
 </body>
 </html>

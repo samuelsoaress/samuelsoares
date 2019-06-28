@@ -1,0 +1,74 @@
+/* ================================
+config Section Portifolio
+================================= */
+
+.portifolio-item{
+    margin-bottom: 30px;
+}
+
+.text-center{
+    text-align: center!important;
+}
+
+@media(min-width:768px){
+    .col-md-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.col-lg-4,.col-md-6{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border: 1px solid #ededed;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
+    background: #f5f5f5;
+    border-radius: .25rem;
+}
+
+.h-100{
+    height: 100%!important;
+}
+
+.link-img {
+    transition: all .2s ease-in-out;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.card-img-top{
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body{
+    padding: 1.5rem 1.5rem 0;
+    flex: 1 1 auto;
+}

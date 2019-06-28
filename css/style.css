@@ -97,6 +97,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 1.6em;
+	color: #343a40;
 }
 
 h1 {
@@ -299,6 +300,12 @@ Home sections
 
 .bg-white {
 	background: #fff;
+}
+
+@media (max-width: 425px){
+	header.bg-white{
+		padding-top: -130px;
+	}
 }
 
 .bg-gray {
@@ -791,6 +798,10 @@ footer a {
 footer a:hover {
 	color: #fff;
 	text-decoration: underline;
+}
+
+footer#rodape{
+	clear: both;
 }
 
 /* ================================
