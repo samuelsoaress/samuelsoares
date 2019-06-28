@@ -19,11 +19,17 @@ Header
 ================================= */
 header {
 	color: #fff;
-	padding-top: 15px;
+	padding-top: 100px;
 	padding-bottom: 15px;
 	text-align: center;
 	position: relative;
-  }
+}
+
+@media(min-width: 479px){
+	.col-md-6{
+		padding-top: 30px;
+	}
+}
 
 .bg-dark {
     background-color: #343a40!important;
@@ -207,6 +213,7 @@ Navbar
 ================================= */
 
 nav.navbar{
+	display: block;
 	position: fixed;
 	top: -72px;
 	margin-bottom: 0px;
@@ -223,6 +230,7 @@ nav.navbar{
 nav.navbar.fixed-to-top{
 	top: 0px;
 }
+
 
 .navbar-default{
 	border: none;
