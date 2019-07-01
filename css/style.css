@@ -120,8 +120,7 @@ General
 
 body{
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-family: 'Droid Sans Mono for Powerline',sans-serif;
 	line-height: 1.6em;
 	color: #343a40;
 }
