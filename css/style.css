@@ -73,7 +73,7 @@ div#bar-portfolio{
 }
 
 @media (min-width: 992px){
-	.col-md-6 {
+	.icenter {
     	width: 100%;
     	/* align-items: center; */
 	}
