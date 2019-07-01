@@ -55,7 +55,7 @@ div#bar-portfolio{
 @media(max-width: 768px){
 	.bg-dark{
 		background-color: #343a40!important;
-		height: 10px;
+		height: 700px;
 	}
 }
 
@@ -909,7 +909,7 @@ more media queries
 	}
 
 	header{
-		padding-top: 30px;
+		padding-top: 10px;
 		padding-bottom: 0px;
 	}
 
