@@ -8,12 +8,11 @@
 /* ================================
 Imports
 ================================= */
-@import url('font-awesome.min.css');
+/* @import url('font-awesome.min.css'); */
 @import url('simpletextrotator.css');
 @import url('overwrite.css');
 @import url('animate.css');
-@import url('all.min.css');
-
+/* @import url('all.min.css'); */
 /* ================================
 Header
 ================================= */
@@ -206,7 +205,7 @@ button.navbar-toggle {
 }
 
 .img2{
-	height: 304px;
+	height: 287px;
 }
 .btn-theme,.btn-theme:hover,.btn-theme:focus{
 	color: #fff;
@@ -300,7 +299,7 @@ nav.navbar.fixed-to-top{
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color: #9f0d72;
+	color: #00008B;
 	cursor: pointer;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
@@ -822,10 +821,10 @@ ul.social-network li {
 }
 
 ul.social-network li a span .fa-circle {
-	color: #003399;
+	color: #4682B4;
 }
 ul.social-network li a:hover span .fa-circle {
-	color: #99FF00;
+	color: #00F5FF;
 }
 
 ul.social-network li a i{
