@@ -52,6 +52,13 @@ div#bar-portfolio{
 	height: 400px;
 }
 
+@media(min-width:768px){
+	.bg-dark{
+	height:550px ;
+	}
+}
+
+
 @media(max-width: 768px){
 	.bg-dark{
 		background-color: #343a40!important;
@@ -61,8 +68,15 @@ div#bar-portfolio{
 
 @media(min-width: 768px){
  .text-md-left {
-    text-align: left!important;
+    text-align: center!important;
  }
+}
+
+@media (min-width: 992px){
+	.col-md-6 {
+    	width: 100%;
+    	/* align-items: center; */
+	}
 }
 
 .img-profile {
