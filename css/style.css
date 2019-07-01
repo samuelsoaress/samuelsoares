@@ -49,7 +49,7 @@ div#bar-portfolio{
 
 .bg-dark {
 	background-color: #343a40!important;
-	height: 600px;
+	height: 400px;
 }
 
 @media(max-width: 768px){
@@ -192,7 +192,7 @@ button.navbar-toggle {
 }
 
 .img2{
-	height: 287px;
+	height: 304px;
 }
 .btn-theme,.btn-theme:hover,.btn-theme:focus{
 	color: #fff;
