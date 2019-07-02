@@ -197,7 +197,7 @@ ul#certificates li{
     border: 5px solid #fff;
     background-color: #fff;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
-    -webkit-transition: all 1s ease-in;
+    -webkit-transition: all .5s ease-in;
 }
 
 ul#certificates li#cer1{
@@ -265,4 +265,10 @@ ul#certificates li#cer5:hover{
     background-position: 0px 0px;
     background-size: 419px 297px;
 
+}
+
+@media (min-width: 992px){
+    .col-md-6 img {
+        width: 100%;
+    }
 }
