@@ -33,6 +33,14 @@ div{
     padding-left: 15px;
 }
 
+.card-footer a{
+    color: black;
+}
+
+.card-footer a:hover{
+    color: #007bff;
+}
+
 .card{
     position: relative;
     display: flex;
