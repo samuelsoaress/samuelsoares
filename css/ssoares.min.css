@@ -1,3 +1,5 @@
+@charset "UTF-8"
+
 /* ================================
 config Section Portifolio
 ================================= */
@@ -155,4 +157,34 @@ btn-tertiary {
 
 .card-link+.card-link{
     margin-left: 1.25rem;
+}
+
+/* ================================
+album certificados em courses
+================================= */
+
+ul#certificates{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#certificates li span{
+    opacity: 0;
+}
+
+ul#certificates li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #fff;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+}
+
+ul#certificates li#cer1{
+    background-image: url(../img/certificates/1.jpeg);
 }
