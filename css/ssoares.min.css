@@ -173,6 +173,20 @@ ul#certificates{
 
 ul#certificates li span{
     opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#certificates li:hover{
+    -webkit-transform: scale(1.5);
+}
+
+ul#certificates li:hover span{
+    opacity: 1;
 }
 
 ul#certificates li{
@@ -183,8 +197,72 @@ ul#certificates li{
     border: 5px solid #fff;
     background-color: #fff;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    -webkit-transition: all 1s ease-in;
 }
 
 ul#certificates li#cer1{
     background-image: url(../img/certificates/1.jpeg);
+    background-position: 50% 50%;
+    background-size: 970px 885px;
+    background-color: #ffffff;
+}
+
+ul#certificates li#cer1:hover{
+    background-position: 0px 0px;
+    background-size: 435px 443px;
+
+}
+
+ul#certificates li#cer2{
+    background-image: url(../img/certificates/2.jpeg);
+    background-position: 50% 50%;
+    background-size: 676px 476px;
+    background-color: #ffffff;
+}
+
+ul#certificates li#cer2:hover{
+    background-position: 0px 0px;
+    background-size: 338px 221px;
+
+}
+
+ul#certificates li#cer3{
+    background-image: url(../img/certificates/3.jpeg);
+    background-position: 50% 50%;
+    background-size: 970px 885px;
+    background-color: #ffffff;
+}
+
+ul#certificates li#cer3:hover{
+    background-position: 0px 0px;
+    background-size: 435px 442px;
+
+}
+
+
+ul#certificates li#cer4{
+    background: url(../img/certificates/4.jpg);
+    background-position: 50% 50%;
+    background-size: 1056px 728px;
+    background-color: #ffffff;
+}
+
+ul#certificates li#cer4:hover{
+    background-position: 0px 0px;
+    background-size: 528px 364px;
+
+}
+
+
+ul#certificates li#cer5{
+    background-image: url(../img/certificates/5.jpg);
+    background-position: 50% 50%;
+    background-size: 838px 594px;
+    background-color: #ffffff;
+}
+
+ul#certificates li#cer5:hover{
+    background-position: 0px 0px;
+    background-size: 419px 297px;
+
 }
