@@ -166,7 +166,7 @@ album certificados em courses
 ul#certificates{
     width: 900px;
     margin: 0 auto;
-    padding: 150px;
+    padding: 82px;
     overflow: hidden;
     list-style: none;
 }
@@ -182,7 +182,7 @@ ul#certificates li span{
 }
 
 ul#certificates li:hover{
-    -webkit-transform: scale(1.9);
+    -webkit-transform: scale(1.8);
 }
 
 ul#certificates li:hover span{
