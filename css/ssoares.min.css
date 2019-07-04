@@ -164,9 +164,9 @@ album certificados em courses
 ================================= */
 
 ul#certificates{
-    width: 700px;
+    width: 900px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 150px;
     overflow: hidden;
     list-style: none;
 }
@@ -182,7 +182,7 @@ ul#certificates li span{
 }
 
 ul#certificates li:hover{
-    -webkit-transform: scale(1.5);
+    -webkit-transform: scale(1.9);
 }
 
 ul#certificates li:hover span{
@@ -205,12 +205,12 @@ ul#certificates li#cer1{
     background-position: 50% 50%;
     background-size: 970px 885px;
     background-color: #ffffff;
+    
 }
 
 ul#certificates li#cer1:hover{
     background-position: 0px 0px;
-    background-size: 435px 443px;
-
+    background-size: cover;
 }
 
 ul#certificates li#cer2{
@@ -222,7 +222,7 @@ ul#certificates li#cer2{
 
 ul#certificates li#cer2:hover{
     background-position: 0px 0px;
-    background-size: 338px 221px;
+    background-size: cover;
 
 }
 
@@ -235,7 +235,7 @@ ul#certificates li#cer3{
 
 ul#certificates li#cer3:hover{
     background-position: 0px 0px;
-    background-size: 435px 442px;
+    background-size: contain;
 
 }
 
@@ -249,7 +249,7 @@ ul#certificates li#cer4{
 
 ul#certificates li#cer4:hover{
     background-position: 0px 0px;
-    background-size: 528px 364px;
+    background-size: contain;
 
 }
 
@@ -263,7 +263,7 @@ ul#certificates li#cer5{
 
 ul#certificates li#cer5:hover{
     background-position: 0px 0px;
-    background-size: 419px 297px;
+    background-size: contain;
 
 }
 
