@@ -182,7 +182,7 @@ ul#certificates li span{
 }
 
 ul#certificates li:hover{
-    -webkit-transform: scale(1.8);
+    -webkit-transform: scale(1.9) ;
 }
 
 ul#certificates li:hover span{
@@ -265,6 +265,30 @@ ul#certificates li#cer5:hover{
     background-position: 0px 0px;
     background-size: contain;
 
+}
+
+ul#certificates li#cer6{
+    background-image: url(../img/certificates/6.jpg);
+    background-position: 50% 50%;
+    background-size: 1004px 712px;
+    background-color: #ffffff;
+}
+
+ul#certificates li#cer6:hover{
+    background-position: 0px 0px;
+    background-size: contain;
+}
+
+ul#certificates li#cer7{
+    background-image: url(../img/certificates/7.jpg);
+    background-position: 50% 50%;
+    background-size: 1004px 712px;
+    background-color: #ffffff;
+}
+
+ul#certificates li#cer7:hover{
+    background-position: 0px 0px;
+    background-size: contain;
 }
 
 @media (min-width: 992px){
