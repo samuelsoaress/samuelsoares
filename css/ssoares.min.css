@@ -331,6 +331,20 @@ ul#certificates li#cer7:hover span{
 }
 
 
+ul#certificates li#cer8{
+    background-image: url(../img/certificates/8.jpg);
+    background-position: 50% 50%;
+    background-size: 970px 885px;
+    background-color: #ffffff;
+    
+}
+
+ul#certificates li#cer8:hover{
+    background-position: 0px 0px;
+    background-size: cover;
+    left: 170px;
+}
+
 @media (min-width: 992px){
     .col-md-6 img {
         width: 100%;
