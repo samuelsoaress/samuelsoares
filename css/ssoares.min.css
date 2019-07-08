@@ -345,6 +345,29 @@ ul#certificates li#cer8:hover{
     left: 170px;
 }
 
+ul#certificates li#cer9{
+    background-image: url(../img/certificates/9.png);
+    background-position: 50% 50%;
+    background-size: 970px 885px;
+    background-color: #ffffff;
+    
+}
+
+ul#certificates li#cer9:hover{
+    background-position: 0px 0px;
+    background-size: contain;
+    height: 110px;
+}
+
+ul#certificates li#cer9:hover span{
+    opacity: 1;
+    margin-top: 319px;
+    position: absolute;
+    left: 55px;
+    top: -230px;
+    line-height: 9px;
+}
+
 /* lista de projetos */
 ul#projetos{
     list-style: none;
