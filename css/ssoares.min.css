@@ -345,6 +345,12 @@ ul#certificates li#cer8:hover{
     left: 170px;
 }
 
+/* lista de projetos */
+ul#projetos{
+    list-style: none;
+    overflow: hidden;
+}
+
 @media (min-width: 992px){
     .col-md-6 img {
         width: 100%;
