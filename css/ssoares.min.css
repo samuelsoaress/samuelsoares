@@ -182,7 +182,7 @@ ul#certificates li span{
 }
 
 ul#certificates li:hover{
-    -webkit-transform: scale(1.9);
+    -webkit-transform: scale(2.0);
 }
 
 ul#certificates li:hover span{
@@ -365,6 +365,28 @@ ul#certificates li#cer9:hover span{
     position: absolute;
     left: 55px;
     top: -230px;
+    line-height: 9px;
+}
+
+ul#certificates li#cer10{
+    background-image: url(../img/certificates/10.png);
+    background-position: 50% 50%;
+    background-size: 1004px 712px;
+    background-color: #ffffff;
+}
+
+ul#certificates li#cer10:hover{
+    background-position: 0px 0px;
+    background-size: contain;
+    height: 140px;
+}
+
+ul#certificates li#cer10:hover span{
+    opacity: 1;
+    margin-top: 319px;
+    position: absolute;
+    left: 30px;
+    top: -200px;
     line-height: 9px;
 }
 
