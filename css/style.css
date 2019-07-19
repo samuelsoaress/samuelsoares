@@ -51,7 +51,7 @@ div#bar-portfolio{
 	height: 400px;
 }
 
-@media(min-width:768px){
+@media(min-width: 768px){
 	.bg-dark{
 	height:550px ;
 	}
