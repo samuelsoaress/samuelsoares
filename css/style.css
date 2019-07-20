@@ -364,6 +364,11 @@ Parallax
 #parallax1{
 	background-image: url(../img/parallax/2.jpg);
 }
+@media (max-width: 750px){
+	#parallax1{
+		background-size: 800px 600px;
+	}
+}
 
 /* ================================
 About
