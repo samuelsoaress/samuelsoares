@@ -63,6 +63,10 @@ div{
     transition: all .2s ease-in-out;
 }
 
+div a#imagem:hover{
+    box-shadow: rgba(0, 0, 0, .7);
+}
+
 a {
     color: #007bff;
     text-decoration: none;
