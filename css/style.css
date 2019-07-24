@@ -581,10 +581,10 @@ ul.social-network li {
 }
 
 ul.social-network li a span .fa-circle {
-	color: #000000;
+	color: #f82249;
 }
 ul.social-network li a:hover span .fa-circle {
-	color: #00F5FF;
+	color: #000000;
 }
 
 ul.social-network li a i{
