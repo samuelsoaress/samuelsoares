@@ -169,14 +169,9 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
             Sobre
 ================================= */
 
-@media(min-width: 1000px){
-	#about{
-		background-attachment: fixed;
-	}
-}
-
 #sobre {
-    background: url(../img/about-bg.jpg);
+	background: url(../img/about-bg.jpg);
+	background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -586,7 +581,7 @@ ul.social-network li {
 }
 
 ul.social-network li a span .fa-circle {
-	color: #4682B4;
+	color: #000000;
 }
 ul.social-network li a:hover span .fa-circle {
 	color: #00F5FF;
