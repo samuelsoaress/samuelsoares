@@ -15,13 +15,9 @@ background: #9f0d72;
   color: #fff;
 }
 
-.back-to-top:hover {
-  background: #9f0d72;
-  color: #fff;
-}
 
 .navbar-default {
-background: #fff;
+background: rgba(6, 12, 34, 0.98);
 }
 
 .form-control:focus {

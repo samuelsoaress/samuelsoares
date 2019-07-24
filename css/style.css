@@ -90,7 +90,7 @@ div#bar-portfolio{
 
 p#logo-index{
 	font-size: 27px;
-	color: #343a40;
+	color: #fff;
 	font-family: 'Nova Mono', monospace;
 }
 
@@ -157,18 +157,40 @@ h6 {
 	font-size: 18px;
 }
 
+
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 	color: #3a3a3a;
 	font-weight: 700;
 	margin-bottom: 20px;
 	font-family: 'Montserrat', sans-serif;
 }
- /* section sobre mim */
+
+/* ================================
+            Sobre
+================================= */
+
+@media(min-width: 1000px){
+	#about{
+		background-attachment: fixed;
+	}
+}
+
+#sobre {
+    background: url(../img/about-bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+	padding: 60px 0 40px 0;
+	text-align: center;
+    
+}
 .has-text-light{
 	font-weight: 600;
 	line-height: 1.125;
 	display: block;
 	word-break: break-word;
+	color: #fff;
 }
 
 span.emoji{
