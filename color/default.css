@@ -15,6 +15,47 @@ background: #9f0d72;
   color: #fff;
 }
 
+.vbox-next, .vbox-prev{
+  position: fixed;
+  top: 50%;
+  margin-top: -15px;
+  overflow: hidden;
+  cursor: pointer;
+  display: block;
+  width: 45px;
+  height: 45px;
+  z-index: 1050;
+}
+.vbox-next span, .vbox-prev span{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 2px solid transparent;
+  border-top-color: #B6B6B6;
+  border-right-color: #B6B6B6;
+  text-indent: -100px;
+  position: absolute;
+  top: 8px;
+  display: block;
+}
+.vbox-prev{
+  left: 15px;
+}
+.vbox-next{
+  right: 30px;
+}
+.vbox-prev span{
+  left: 10px;
+  -ms-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.vbox-next span{
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  right: 10px;
+}
 
 .navbar-default {
 background: rgba(6, 12, 34, 0.98);

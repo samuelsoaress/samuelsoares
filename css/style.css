@@ -262,6 +262,18 @@ margin, padding
 Navbar
 ================================= */
 
+.nav.navbar-nav a:hover:before,
+.nav.navbar-nav li:hover > a:before,
+.nav.navbar-nav .menu-active > a:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.navbar-nav li:hover > ul,
+.navbar-nav li.sfHover > ul {
+  display: block;
+}
+
 nav.navbar{
 	display: block;
 	position: fixed;
@@ -275,6 +287,10 @@ nav.navbar{
 
 .navbar-nav{
 	float: right;
+}
+
+.navbar-nav ul {
+	z-index: 99;
 }
 
 nav.navbar.fixed-to-top{
@@ -291,13 +307,13 @@ nav.navbar.fixed-to-top{
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #004f9b;
+	color: rgba(202, 206, 221, 0.8);
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
-	color: #00008B;
+	color: #fff;
 	cursor: pointer;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
@@ -305,6 +321,51 @@ nav.navbar.fixed-to-top{
 	-o-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
 	outline: 0;
+}
+
+.navbar-nav ul li:hover > a {
+	background: #f82249;
+	color: #fff;
+  }
+
+.navbar-nav > li > a:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #f82249;
+	visibility: hidden;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar-nav li {
+	position: relative;
+	white-space: nowrap;
+}
+  
+/* navegação arrow  */
+
+.esp li{
+	padding: 4px;
+}
+
+.sf-arrows .sf-with-ul {
+	padding-right: 30px;
+}
+  
+.sf-arrows .sf-with-ul:after {
+	content: "\f107";
+	position: absolute;
+	right: 15px;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.sf-arrows ul .sf-with-ul:after {
+	content: "\f105";
 }
 
 /* brand / logo */
