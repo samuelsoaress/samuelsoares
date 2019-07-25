@@ -441,8 +441,9 @@ Parallax
 
 #parallax1{
 	background-image: url(../img/parallax/4.jpg);
+	background-size: 1350px 955px;
 }
-@media (max-width: 750px){
+@media (max-width: 1024px){
 	#parallax1{
 		background-size: 800px 600px;
 	}
