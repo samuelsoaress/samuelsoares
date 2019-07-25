@@ -440,7 +440,7 @@ Parallax
 ============================= */
 
 #parallax1{
-	background-image: url(../img/parallax/2.jpg);
+	background-image: url(../img/parallax/4.jpg);
 }
 @media (max-width: 750px){
 	#parallax1{
