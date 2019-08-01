@@ -94,7 +94,9 @@ h1#nome {
 }
 
 .text-muted {
-    color: #6c757d!important;
+	color: #6c757d!important;
+	font-weight: 700;
+	font-size: 24px;
 }
 
 .list-icons{
@@ -121,6 +123,26 @@ header a,footer a{
 .fa-linkedin:before {
     content: "\f08c";
 }
+
+/* ================================
+intro
+================================= */
+.intro .intro-titulo {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+}
+  
+.intro .intro-subtitulo {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+  
+span.texto-slider-items {
+	display: none;	
+}
+
+
 /* ================================
 General
 ================================= */

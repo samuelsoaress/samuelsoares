@@ -1,4 +1,21 @@
-@charset "UTF-8"
+@charset "UTF-8";
+/* ================================
+intro
+================================= */
+.intro .intro-titulo {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+}
+  
+.intro .intro-subtitulo {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+  
+span.texto-slider-items {
+    display: none;
+}
 
 /* ================================
 config Section Portifolio

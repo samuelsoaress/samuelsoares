@@ -1,5 +1,17 @@
 (function($) {
 
+  /*--/ utilizando lib js Typed /--*/
+	if ($('.texto-slider').length == 1) {
+    var typed_strings = $('.texto-slider-items').text();
+		var typed = new Typed('.texto-slider', {
+			strings: typed_strings.split(','),
+			typeSpeed: 80,
+			loop: true,
+			backDelay: 1100,
+			backSpeed: 30
+		});
+	}
+
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
