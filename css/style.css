@@ -143,6 +143,54 @@ span.texto-slider-items {
 }
 
 
+/*about*/
+
+.box-shadow-full {
+	padding: 3rem 1.25rem;
+	position: relative;
+	background-color: #fff;
+	margin-bottom: 3rem;
+	z-index: 2;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about-mf .box-shadow-full {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+margin-left: 10px;
+}
+
+.skill-mf span {
+color: #4e4e4e;
+}
+
+.skill-mf .progress {
+background-color: #cde1f8;
+margin: .5rem 0 1.2rem 0;
+border-radius: 0;
+height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+height: .7rem;
+background-color: #ff5100e7;
+}
+
+.title-s {
+	font-weight: 600;
+	color: #1e1e1e;
+	font-size: 1.5rem;
+}
+
+
+
 /* ================================
 General
 ================================= */
@@ -717,5 +765,11 @@ more media queries
 
 	header h1{
 		font-size: 70px;
+	}
+}
+
+@media (min-width: 768px) {
+	.box-shadow-full {
+	  padding: 3rem;
 	}
 }
