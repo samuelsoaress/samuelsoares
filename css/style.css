@@ -285,8 +285,16 @@ button.navbar-toggle {
 	color: #fff;
 }
 
-.img2{
-	height: 287px;
+@media(max-width:760px){
+	.item2{
+		height: 500px;
+	}
+	
+}
+@media(min-width: 1046px){
+	.item2{
+		height: 287px;
+	}
 }
 .btn-theme,.btn-theme:hover,.btn-theme:focus{
 	color: #fff;
@@ -490,12 +498,14 @@ Home sections
 /* --- section content general color --- */
 
 .color-light h1,.color-light h2,.color-light h3,.color-light h4,.color-light h5,.color-light h6 {
-	color: #9e1414;
+	color: #FFFFFF;
+	filter: drop-shadow(0 0 0.75rem crimson);
 }
 
 
 .color-light p {
-	color: #9e1414;
+	color: #ffffff;
+	filter: drop-shadow(0 0 0.75rem crimson);
 }
 
 
@@ -612,7 +622,7 @@ Services
 
 .service .carousel-indicators .active {
 	width: 45px;
-	height: 5px;
+	height: 15px;
 	border: none;
 	border-radius: 0px;
 }
@@ -621,7 +631,7 @@ Services
 	display: inline-block;
 	margin: 1px;
 	width: 45px;
-	height: 5px;
+	height: 15px;
 	border: none;
 	border-radius: 0px;
 	background: #eeeeee;
