@@ -582,63 +582,49 @@ Team
 
 
 /* ================================
-Services
+hoobies
 ================================= */
-.service.carousel h4,.service.carousel p {
-	text-align: left;
-}
 
 
-.service .carousel-control{
-	background: none;
-}
-
-.service .screenshot{
-	overflow: hidden;
-	overflow: hidden;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.service .screenshot img{
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 4px;
-	width: 400px;
-}
-
-.service .carousel-indicators {
-	position: relative;
-	bottom: 0;
-	left: 0;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding: 5px;
-	padding-bottom: 8px;
-	width: 100%;
-	background: #ffffff;
-}
-
-.service .carousel-indicators .active {
-	width: 45px;
-	height: 15px;
-	border: none;
-	border-radius: 0px;
-}
-
-.service .carousel-indicators li {
+.services-icon {
+	color: #444;
 	display: inline-block;
-	margin: 1px;
-	width: 45px;
-	height: 15px;
-	border: none;
-	border-radius: 0px;
-	background: #eeeeee;
-	text-indent: -999px;
-	cursor: pointer;
-}
-
+	font-size: 36px;
+	line-height: 36px;
+	margin-bottom: 20px;
+  }
+  
+  .section-headline.services-head>h2 {
+	margin-bottom: 25px;
+  }
+  
+  .services-details {
+	padding-top: 40px;
+	transition: all 0.5s ease 0s;
+  }
+  
+  .services-details:hover h4, .services-details:hover .services-icon {
+	color: rgb(213, 62, 62);
+  }
+  
+  .row.second-row {
+	margin-top: 40px;
+  }
+  
+  .section-head>h2 {
+	color: #333;
+  }
+  
+  .single-services>h4 {
+	color: #444;
+	font-size: 24px;
+	font-weight: 500;
+  }
+  
+  .single-services>p {
+	color: #333;
+	font-size: 14px;
+  }
 
 /* ================================
 Bottom widget
