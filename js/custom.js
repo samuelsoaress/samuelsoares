@@ -12,31 +12,6 @@
 		});
 	}
 
-  // Back to top button
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('.back-to-top').fadeIn('slow');
-    } else {
-      $('.back-to-top').fadeOut('slow');
-    }
-  });
-
-  $('.back-to-top').click(function(){
-    $('html, body').animate({scrollTop : 0},800);
-    return false;
-  });
-
-  //navigation
-  /* $('.navigation').onePageNav({
-    scrollOffset: 0
-  });
-
-  $(".navbar-collapse a").on('click', function() {
-    $(".navbar-collapse.collapse").removeClass('in');
-  }); */
-
-  //Home Background Slider
-
   $(function() {
 
     $.mbBgndGallery.buildGallery({
@@ -95,22 +70,6 @@
     animation: "dissolve",
     speed: 4000
   });
-
-  // Fixed navbar
- /*  $(window).scroll(function() {
-
-    var scrollTop = $(window).scrollTop();
-
-    if (scrollTop > 200) {
-      $('.navbar-default').css('display', 'block');
-      $('.navbar-default').addClass('fixed-to-top');
-
-    } else if (scrollTop == 0) {
-
-      $('.navbar-default').removeClass('fixed-to-top');
-    }
-  }); */
-
 
   //parallax
   if ($('#parallax1').length || $('#parallax2').length) {
