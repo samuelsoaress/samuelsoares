@@ -18,6 +18,9 @@ header {
 	text-align: center;
 	position: relative;
 }
+header, section, footer{
+	font-size: 17px;
+}
 
 div#bar-portfolio{
 	position: absolute;
@@ -145,6 +148,9 @@ span.texto-slider-items {
 
 /*about*/
 
+.fm{
+	height: 25px;
+}
 .box-shadow-full {
 	padding: 3rem 1.25rem;
 	position: relative;
@@ -175,11 +181,9 @@ color: #4e4e4e;
 background-color: #cde1f8;
 margin: .5rem 0 1.2rem 0;
 border-radius: 0;
-height: .7rem;
 }
 
 .skill-mf .progress .progress-bar {
-height: .7rem;
 background-color: #ff5100e7;
 }
 
