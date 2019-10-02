@@ -180,7 +180,7 @@ color: #4e4e4e;
 .skill-mf .progress {
 background-color: #cde1f8;
 margin: .5rem 0 1.2rem 0;
-border-radius: 0;
+border-radius: 10px 10px 10px;
 }
 
 .skill-mf .progress .progress-bar {
