@@ -413,6 +413,19 @@ ul#certificates li#cer10:hover span{
     line-height: 9px;
 }
 
+ul#certificates li#cer11{
+    background-image: url(../img/certificates/11.png);
+    background-position: 50% 50%;
+    background-size: 970px 885px;
+    background-color: #ffffff;
+    
+}
+
+ul#certificates li#cer11:hover{
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
 /* lista de projetos */
 ul#projetos{
     list-style: none;
